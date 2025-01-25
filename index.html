@@ -4,13 +4,27 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="./stats.css" />
+    <script src="src/stats.js"></script>
   </head>
   <body>
     <h1>보라매</h1>
     <h3>팝업부터 올려보겠음 -> 완료</h3>
     <!--쿠키를 이용한 팝업 만들기-->
-    <h4>간단하게 MVP부터 만들자</h4>
+
+    <div class="stats-outer">
+      <div class="stats-inner">
+        <div class="stats-item"><h2>1</h2></div>
+        <div class="stats-item"><h2>2</h2></div>
+        <div class="stats-item"><h2>3</h2></div>
+        <div class="stats-item"><h2>4</h2></div>
+        <div class="stats-item"><h2>5</h2></div>
+      </div>
+    </div>
+    <div class="prev_btn">&lt;</div>
+    <div class="next_btn">&nbsp;&nbsp;&nbsp;&gt;</div>
     <!-- <button onclick="openPopup()">열기</button> -->
   </body>
-  <script src="./load.js"></script>
+  <script src="src/load.js"></script>
+  <script type="module" src="src/async.mjs"></script>
 </html>
